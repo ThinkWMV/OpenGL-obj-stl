@@ -1,10 +1,4 @@
-//
-//  AdvanceViewController.m
-//  LearnOpenGLES
-//
-//  Created by loyinglin on 16/3/25.
-//  Copyright © 2016年 loyinglin. All rights reserved.
-//
+
 
 #import "AdvanceViewController.h"
 #import <OpenGLES/ES2/glext.h>

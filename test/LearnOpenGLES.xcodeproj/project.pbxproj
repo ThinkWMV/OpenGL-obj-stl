@@ -15,8 +15,6 @@
 		916F35E2246D36B400E64696 /* Samus.stl in Resources */ = {isa = PBXBuildFile; fileRef = 916F35E1246D36B400E64696 /* Samus.stl */; };
 		918CCEF2246548DA00888083 /* ch.obj in Resources */ = {isa = PBXBuildFile; fileRef = 918CCEF1246548DA00888083 /* ch.obj */; };
 		918CCEF42465569500888083 /* key.obj in Resources */ = {isa = PBXBuildFile; fileRef = 918CCEF32465569500888083 /* key.obj */; };
-		91A480AF2468D7B5007ADD17 /* Vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 91A480AD2468D7B4007ADD17 /* Vertex.glsl */; };
-		91A480B02468D7B5007ADD17 /* Fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 91A480AE2468D7B5007ADD17 /* Fragment.glsl */; };
 		FD8C73431C929DB9001A5D46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8C73421C929DB9001A5D46 /* main.m */; };
 		FD8C73461C929DB9001A5D46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8C73451C929DB9001A5D46 /* AppDelegate.m */; };
 		FD8C734C1C929DB9001A5D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8C734A1C929DB9001A5D46 /* Main.storyboard */; };
@@ -48,8 +46,6 @@
 		916F35E1246D36B400E64696 /* Samus.stl */ = {isa = PBXFileReference; lastKnownFileType = file; path = Samus.stl; sourceTree = "<group>"; };
 		918CCEF1246548DA00888083 /* ch.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ch.obj; sourceTree = "<group>"; };
 		918CCEF32465569500888083 /* key.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key.obj; sourceTree = "<group>"; };
-		91A480AD2468D7B4007ADD17 /* Vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vertex.glsl; sourceTree = "<group>"; };
-		91A480AE2468D7B5007ADD17 /* Fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fragment.glsl; sourceTree = "<group>"; };
 		FD8C733E1C929DB9001A5D46 /* LearnOpenGLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnOpenGLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8C73421C929DB9001A5D46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD8C73441C929DB9001A5D46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,8 +124,6 @@
 				FD8C73451C929DB9001A5D46 /* AppDelegate.m */,
 				FD9EB92D1CA4E7230086D839 /* AdvanceViewController.h */,
 				FD9EB92E1CA4E7230086D839 /* AdvanceViewController.m */,
-				91A480AD2468D7B4007ADD17 /* Vertex.glsl */,
-				91A480AE2468D7B5007ADD17 /* Fragment.glsl */,
 				FD8C734A1C929DB9001A5D46 /* Main.storyboard */,
 				FD8C734D1C929DB9001A5D46 /* Assets.xcassets */,
 				FD8C734F1C929DB9001A5D46 /* LaunchScreen.storyboard */,
@@ -239,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				918CCEF2246548DA00888083 /* ch.obj in Resources */,
-				91A480B02468D7B5007ADD17 /* Fragment.glsl in Resources */,
 				FD8C73511C929DB9001A5D46 /* LaunchScreen.storyboard in Resources */,
 				FD8C736A1C92AC07001A5D46 /* for_test.png in Resources */,
 				914A3BFE246BCE090084F060 /* cube.obj in Resources */,
@@ -249,7 +242,6 @@
 				FD8C734C1C929DB9001A5D46 /* Main.storyboard in Resources */,
 				916F35DD246D227800E64696 /* zhuozi.stl in Resources */,
 				916F35E2246D36B400E64696 /* Samus.stl in Resources */,
-				91A480AF2468D7B5007ADD17 /* Vertex.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
